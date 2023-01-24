@@ -1,0 +1,162 @@
+html {
+    box-sizing: border-box;
+    font-family: Calculator;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    font-size: inherit;
+}
+
+ul[class] {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    color: #fff;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto 0;
+    width: 28%;
+}
+
+.box__points {
+    width: 220px;
+
+    color: aqua;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.points {
+    margin-right: 20px;
+    text-align: right;
+}
+
+.points span {
+    display: inline-block;
+    width: 20px;
+    opacity: 0.5;
+}
+
+.box__control {
+    white-space: nowrap;
+    margin-top: 70px;
+    margin-left: 10px;
+    font-size: 29px;
+    color: aqua;
+}
+
+.points__result {
+    font-size: 27px;
+}
+
+.game__field {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 220px;
+    margin: 0 auto;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+}
+
+.game_cell {
+    border: 1px solid aqua;
+}
+
+.top {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border: none;
+    border-top: 1px solid blue;
+    border-bottom: 2px solid tomato;
+}
+
+.bottom {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border: none;
+    border-bottom: 1px solid blue;
+    border-top: 2px solid tomato;
+}
+
+.left {
+    background-color: #000;
+    border: none;
+    border-left: 1px solid blue;
+    border-right: 2px solid tomato;
+}
+
+.right {
+    background-color: #000;
+    border: none;
+    border-right: 1px solid blue;
+    border-left: 2px solid tomato;
+}
+
+.corners {
+    background-color: #000;
+    border: none;
+}
+
+.red_Square {
+    background-color: red;
+    border: 1px solid #000;
+}
+
+.snake {
+    background-color: greenyellow;
+    border: 1px solid #000;
+}
